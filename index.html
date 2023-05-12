@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sripathy Padhma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <h3 class="logo"><span style="color: rgb(154, 118, 188);">S</span>ripathy</h3>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <p>Full Stack Developer</p>
+            <h1> Hello,<br> I'm <span>Sripathy</span> from Chennai</h1><br>
+            <h3 class="post">I am a <span class="typing-text">Web Developer</span></h3>
+               <!--class="typed" data-typed-items="Student, Developer, Freelancer">, web developer -->   
+        </div>
+    </div>
+   </div>
+
+<!--------------about----------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><br><br>
+                    <img src="images/sriii.jpeg">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About me</h1><br>
+                <p>     My name is Sripathy Padhma. A Full stack java Developer having specialization in back end 
+                    and front end development. I am focused on building and optimizing user-focused websites, applications and databases with great user experiences.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('course')">Course</p>
+                    <p class="tab-links" onclick="opentab('Awards')">Achievements</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java</span><br>Building J2EE projects/Developing Applications </li>
+                        <li><span>Web Development</span><br>Designing Web pages</li>
+                        <li><span>DBMS</span><br>Developing CRUD Application/DB Connectivity</li>
+                    </ul>
+                </div>
+                <div class="tab-contents edu" id="education">
+                    <ul>
+                        <li><span>2016 - 2018</span><br>M.E Computer Science and Engineering, Government Engineering College Tirunelveli<br>Secured 82%</li>
+                        <li><span>2012 - 2016</span><br>B.Tech Information Technology, Anna University Tirunelveli<br>Secured 74%</li>
+                        <li><span>2011 - 2012</span><br>HSC,St.Ignatius Convent Hr.sec.School<br>Secured 88%</li>
+                        <li><span>2009 - 2010</span><br>SSLC, St.Ignatius Convent Hr.sec.School<br>Secured 95%</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="course">
+                    <ul>
+                        <li><span>2022 November - Current</span><br>PG in Java Full Stack Developement </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Awards">
+                    <ul>
+                        <li><span>Publication</span><br>Dr.G.TamilPavai, R.Sripathy Padhma(2020) “A Computational perception of locating multiple longest common subsequence in DNA sequences”,<b> International Journal of Intelligent Enterprise. </b></li>
+                        <li><span>Awards</span><br><b>3rd top ranker</b> in the academic year 2017-2018, CSE Dept, Government Engineering College, Tirunelveli<br>
+                            <br>Got 2nd prize in both<b> “Debugging in C++” & “Technical Quiz” </b>competitions conducted by Tech society, Anna University, Tirunelveli.</li>
+                        <li><span>Linkedin Badges</span><br>HTML<br>CSS<br>MySQL</li>
+                    </ul>
+                </div>
+        </div>
+
+                            <!--h1 class="sub-title">Awards and Achievements</h1>
+                <div class="box-container">
+
+                <div class="box">
+                    <div class="cert"></div>
+                    <h3><i><u>Publication</u></i></h3><br>
+                    <p>Dr.G.TamilPavai, R.Sripathy Padhma(2020) <b>“A Computational perception of locating multiple longest common subsequence in DNA sequences”, International Journal of Intelligent Enterprise.</b></p>
+                </div>
+
+                <div class="box">
+                    <div class="cert"></div>
+                    <h3><i><u>Awards</u></i></h3>
+                    <p>3rd top ranker in the academic year 2017-2018, CSE Dept, Government Engineering College, Tirunelveli<br>
+                        <br><br>Got 2nd prize in both “Debugging in C++” & “Technical Quiz” competitions conducted by Tech society, Anna University, Tirunelveli.</p>
+                </div>
+                            <li><span>2022 November - Current</span><br>PG in Java Full Stack Developement </li>
+
+                </div-->
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------service----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i><!--i class="fab fa-html5"></i>
+                    <i class="fab fa-css3"></i><i class="fab fa-js"></i-->
+                    <h2>FrontEnd - Web design</h2>
+                    <p>Design attractive and responsive websites based on user requirements</p>
+                    <a href="#wdP">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-java"></i>
+                    <h2>Back end - Java Programming, Javascript</h2>
+                    <p>Program and develope applications/projects based on client requirements</p>
+                    <a href="#javaP">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-database"></i>
+                    <h2>Database</h2>
+                    <p>Managing data and files related to the application/project along with the effective database connectivty</p>
+                    <a href="#sqlP">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <-----------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work"  id="javaP">
+                    <img src="images/user1.jpg">
+                    <div class="layer">
+                        <h3> User Management Project</h3>
+                        <p>Application created using html,css,J2EE in Eclipse with the Apache Tomcat server and database connectivity</p>
+                        <h4>FrontEnd:HTML,CSS</h4>
+                        <h4>BackEnd:Java</h4>
+                        <h4>Database:MySQLWorkbench</h4>
+                        <!--a href="#"><i class="fas fa-external-link-alt"></i></a-->
+                    </div>
+                </div>
+                <div class="work"  id="javaP">
+                    <img src="images/login.jpg">
+                    <div class="layer">
+                        <h3>Login Register Project</h3>
+                        <p>Application created using JFrames in NetBeansIDE with the the Apache Tomcat server and  database connectivity with all CRUD operations</p>
+                        <h4>FrontEnd:JFrames</h4>
+                        <h4>BackEnd:Java</h4>
+                        <h4>Database:MySQLWorkbench</h4>
+                        <!--a href="#"><i class="fas fa-external-link-alt"></i></a-->
+                    </div>
+                </div>
+                <div class="work"  id="sqlP">
+                    <img src="images/dbms.jpg">
+                    <div class="layer">
+                        <h3> Result Analysis System</h3>
+                        <p>Schema created in workbench with multiple tables and relationships between them and the results were analysed and retrieved</p>
+                        <h4>Database:MySQLWorkbench</h4>
+                        <!--a href="#"><i class="fas fa-external-link-alt"></i></a-->
+                    </div>
+                </div>
+                <div class="work"  id="wdP">
+                    <img src="images/portfolio.jpg">
+                    <div class="layer">
+                        <h3> Personal Portfolio</h3>
+                        <p>Personal portfolio website is created using HTML, CSS and Javascript</p>
+                        <h4>FrontEnd:HTML, CSS</h4>
+                        <h4>BackEnd:Javascript</h4>
+                        <h4>Form: Google Spreadsheet</h4>
+                        <!--a href="#"><i class="fas fa-external-link-alt"></i></a-->
+                    </div>
+                </div>
+            </div>
+            <a href="#certifications" class="btn">See more</a>
+        </div>
+        <div id="certifications">
+            <div class="container">
+                <h1 class="sub-title">Certificates</h1>
+                <div class="col-lg-3 mb-3">
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/IBM_Java.png">
+                        <div class="layer">
+                            <h3> JAVA Fundamentals</h3>
+                        <p>Issued by IBM</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/java.jpg">
+                    <div class="layer">
+                        <h3>Java Essentials
+                            </h3>
+                        <p>Issued by IT Vedant Education Pvt ltd</p>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/webdesign.jpg">
+                    <div class="layer">
+                        <h3> Web designing Essentials</h3>
+                        <p>Issued by IT Vedant Education Pvt ltd</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/fsql.jpg">
+                    <div class="layer">
+                        <h3> Fundamentals of SQL</h3>
+                        <p>Issued by IT Vedant Education Pvt ltd</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fas fa-envelope"></i>sripathypadhma@gmail.com</p>
+                    <p><i class="fas fa-phone"></i>8682867251</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sripathypadhma" class="fab fa-linkedin" target="_blank"></a>
+                        <a href="https://github.com/SripathyPadhma" class="fab fa-github" target="_blank"></a>
+                        <a href = "mailto:sripathypadhma@gmail.com" class="fa fa-envelope" target="_blank"></a>     
+                    </div>
+                    <a href="images/resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right"><br><br>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy 2023 Sripathy </p>
+        </div>
+    </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+        <script>
+
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks)
+                    tablink.classList.remove("active-link");
+                for(tabcontent of tabcontents)
+                    tabcontent.classList.remove("active-tab");
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+            var type = new Typed('.typing-text',{
+                strings : [  '3','Front end developer','java programmer','Back end Developer'],
+                typeSpeed: 160,
+                loop:true
+            });
+        
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right= "0";
+            }
+            function closemenu(){
+                sidemenu.style.right= "-200px";
+            }
+
+
+
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzRDRjbNx7YrSPlWfAGkpT57P2gzluOPBysuiKdl63dm5zyQKvQuHRhKf5LYzFUZY916A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },4000)
+        form.reset();
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
